@@ -12,9 +12,9 @@
 		"discord": "Captain Zenscuel#9518",
 	}
 	]
-	"esmodules":
+	"esmodules": [ "Starlightjournals.js" ],
 	"scripts":
-	"styles":
+	"styles": ["starlightjournals.css" ],
 	"packs":
 	"languages": [
 	{
@@ -30,15 +30,15 @@
 	"secondaryTokenAttribute": "attribute.stamina",
 	"minimumcoreversion" : 10,
 	"compatibility" : {
-    "minimum" : 10.279,
-    "verified" : 10.279,
-    "maximum" : 10    
+    "minimum" : "10.279",
+    "verified" : "10.279",
+    "maximum" : "10"    
   },
   "manifestPlusVersion": "0.0.1",
   "templateVersion": 1,
   "socket": false,
   "manifest" :  "",
-  "download" :  "",
-  "url" : ""
-}
+  "download" :  "https://github.com/CaptZens/Starlight-Journals/blob/main/system.json",
+  "url" : "https://github.com/CaptZens/Starlight-Journals"
+},
 	

@@ -955,7 +955,7 @@
 		},
 	},
 	"Item":{
-		"types":[ "BD", "MWeapon", "RWeapon", "Suits", "Consumable", "Kit", "injuries", "talents", "traits", "augments", "Mutations", "Curses", "Powers", "modules", "Shipweapons", "Superheavy", "Marvel"],
+		"types":[ "BD", "MWeapon", "RWeapon", "Suits", "Consumable", "Kit", "injuries", "talents", "traits", "augments", "Mutations", "Curses", "Powers", "modules", "Shipweapons", "Superheavy", "Crafted"],
 		"Templates": {
 			"physicalitem" :{
 				"Price": 0,
@@ -969,13 +969,17 @@
 					"value": ""
 				},
 			},
+			"Shipitem": {
+				"power": 0
+				"space": 0
+			},
 		},
 		"BD": {
 			"templates":[ "Descriptionitem" ],
 			"requirements": ""
 		},
 		"MWeapon": {
-			"templates": [ "physicalitem" ],
+			"templates": [ "physicalitem", "Descriptionitem" ],
 			"RoF": "",
 			"Energy": "",
 			"Damage": 0,
@@ -983,7 +987,7 @@
 			"Special": ""
 		},
 		"Rweapon": {
-			"templates": [ "physicalitem" ],
+			"templates": [ "physicalitem", "Descriptionitem" ],
 			"RoF": "",
 			"Magazine": 0,
 			"Ammo": ""
@@ -993,7 +997,7 @@
 			"Special": ""
 		},
 		"Suits": {
-			"templates": [ "Physicalitem" ],
+			"templates": [ "Physicalitem", "Descriptionitem" ],
 			"Integrity": 0,
 			"Armor": 0,
 			"Resistance": "",
@@ -1004,8 +1008,103 @@
 				"used": 0
 				"max": 0
 			},
-			"Source": "",
+			"PowerSource": "",
 			"Special": ""
 		},
-		
-			
+		"Consumable" : {
+			"templates": [ "physicalitem", "descriptionitem" ],
+			"Quantity": 0,
+			"ConsumableType": "",
+			"Effect": ""
+			"quality": "",
+			"uses": {
+				"autodestroy": false
+			},
+		},
+		"Kit":{
+			"templates": [ "physicalitem", "descriptionitem" ],
+			"Effect": "",
+			"quality": "",
+			"Powerduration": 0
+		},
+		"Injuries": {
+			"templates":[ "Descriptionitem" ],
+			"MaxhealthReduction": 0
+		},
+		"talents": {
+			"templates":[ "Descriptionitem" ],
+			"Requirements": ""
+		},
+		"Traits": {
+			"templates":[ "Descriptionitem" ],
+			"Ranked": "",
+			"Ranks": 1
+		},
+		"Augments":{
+			"templates": [ "physicalitem", "descriptionitem" ],
+			"Effect": "",
+			"Negative": "",
+			"Ranks": 
+		},
+		"Injuries": {
+			"templates":[ "Descriptionitem" ],
+			"roll": ""
+		},
+		"Curses": {
+			"templates":[ "Descriptionitem" ],
+			"source": ""
+		},
+		"Powers": {
+			"templates":[ "Descriptionitem" ],
+			"School": "",
+			"Requirement": "",
+			"Skill": "",
+			"Type": "",
+			"Time/Mod": "",
+			"Threshold": 0,
+			"Range": "",
+			"Traits": "",
+			"PowerEffect": ""
+		},
+		"modules":{
+			"templates": [ "physicalitem", "descriptionitem", "Shipitem" ],
+		},
+		"Shipweapon": {
+			"templates": [ "physicalitem", "Descriptionitem", "Shipitem" ],
+			"RoF": "",
+			"Magazine": 0,
+			"Ammo": ""
+			"Ammocost": ""
+			"Energy": "",
+			"Damage": 0,
+			"Penetration": 0,
+			"Special": ""
+		},
+		"Superheavy": {
+			"templates": [ "Physicalitem", "Descriptionitem" ],
+			"Integrity": 0,
+			"Armor": 0,
+			"Resistance": "",
+			"Environmental": "",
+			"SuitPower": {
+				"Type": "number"
+				"label": "Power"
+				"used": 0
+				"max": 0
+			},
+			"PowerSource": "",
+			"Strength": 0,
+			"Speed": 0,
+			"Special": ""
+		},
+		"Crafted": {
+			"templates": [ "Descriptionitem" ],
+			"Craftingcost": 0,
+			"RequiredMats": "",
+			"Restrictions": "",
+			"Fabrication": "",
+			"Features": "",
+			"Applied": ""
+		},
+	},
+},
