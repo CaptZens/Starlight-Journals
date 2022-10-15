@@ -1,619 +1,619 @@
 {
 	"Actor": {
-		"types": ["pc", "npc", "vehicle","remote","starship"],
+		"types": ["PC", "NPC", "Vehicle","Remote","Starship"],
 		"templates": {
 			"core": {
 				"statistics": {
 					"Build":{
-						"Type": "number"
-						"label": "Build"
-						"abrev": "BUI"
-						"core": 20
-						"improvements" : 0
+						"Type": "number",
+						"label": "Build",
+						"abrev": "BUI",
+						"core": 20,
+						"improvements" : 0,
 						"Total": 20
 					},
 					"Coordination":{
-						"Type": "number"
-						"label": "Coordination"
-						"abrev": "COR"
-						"core": 20
-						"improvements" : 0
+						"Type": "number",
+						"label": "Coordination",
+						"abrev": "COR",
+						"core": 20,
+						"improvements" : 0,
 						"Total" : 20
 					},
 					"Intelligence":{
-						"Type": "number"
-						"label": "Intelligence"
-						"abrev": "INT"
-						"core": 20
-						"improvements" : 0
+						"Type": "number",
+						"label": "Intelligence",
+						"abrev": "INT",
+						"core": 20,
+						"improvements" : 0,
 						"Total" : 20
 					},
 					"Psyche":{
-						"Type": "number"
-						"label": "Psyche"
-						"abrev": "PSY"
-						"core": 20
-						"improvements" : 0
+						"Type": "number",
+						"label": "Psyche",
+						"abrev": "PSY",
+						"core": 20,
+						"improvements" : 0,
 						"Total" : 20
 					},
 					"Empathy":{
-						"Type": "number"
-						"label": "Empathy"
-						"abrev": "EMP"
-						"core": 20
-						"improvements" : 0
+						"Type": "number",
+						"label": "Empathy",
+						"abrev": "EMP",
+						"core": 20,
+						"improvements" : 0,
 						"Total" : 20
 					},
 					"Potency":{
-						"Type": "number"
-						"label": "Potency"
-						"abrev": "POT"
-						"core": 20
-						"improvements" : 0
+						"Type": "number",
+						"label": "Potency",
+						"abrev": "POT",
+						"core": 20,
+						"improvements" : 0,
 						"Total" : 20
 					},
 					"Luck":{
-						"Type": "number"
-						"label": "Luck"
-						"abrev": "LUCK"
-						"core": 20
-						"improvements" : 0
+						"Type": "number",
+						"label": "Luck",
+						"abrev": "LUCK",
+						"core": 20,
+						"improvements" : 0,
 						"Total" : 20
 					}
 				},
 				"attribute": {
 					"health": {
-						"type": "number"
-						"label": "Health"
-						"abrev": "H"
-						"value": 2
+						"type": "number",
+						"label": "Health",
+						"abrev": "H",
+						"value": 2,
 						"max": 2
 					},
 					"stamina": {
-						"type": "number"
-						"label": "Stamina"
-						"abrev": "S"
-						"value": 5
+						"type": "number",
+						"label": "Stamina",
+						"abrev": "S",
+						"value": 5,
 						"max": 5
 					},
 					"nerve": {
-						"type": "number"
-						"label": "Nerve"
-						"abrev": "N"
-						"value": 5
+						"type": "number",
+						"label": "Nerve",
+						"abrev": "N",
+						"value": 5,
 						"max": 5
 					},
 					"speed": {
-						"type": "number"
-						"label": "Speed"
-						"abrev": "Sp"
-						"value": 5
+						"type": "number",
+						"label": "Speed",
+						"abrev": "Sp",
+						"value": 5,
 						"zones": 1
 					},
 					"resilience": {
-						"type": "number"
-						"label": "Resilience"
-						"abrev": "Rs"
+						"type": "number",
+						"label": "Resilience",
+						"abrev": "Rs",
 						"value": 2
 					},
 					"Resolve": {
-						"type": "number"
-						"label": "Resolve"
-						"abrev": "Rv"
+						"type": "number",
+						"label": "Resolve",
+						"abrev": "Rv",
 						"value": 2
 					},
 					"Charisma": {
-						"type": "number"
-						"label": "Charisma"
-						"abrev": "Ch"
+						"type": "number",
+						"label": "Charisma",
+						"abrev": "Ch",
 						"value": 2
 					},
 					"Ingenuity": {
-						"type": "number"
-						"label": "Ingenuity"
-						"abrev": "Ig"
+						"type": "number",
+						"label": "Ingenuity",
+						"abrev": "Ig",
 						"value": 2
 					},
 					"Intensity": {
-						"type": "number"
-						"label": "Intensity"
-						"abrev": "In"
+						"type": "number",
+						"label": "Intensity",
+						"abrev": "In",
 						"value": 2
 					},
 					"Strength": {
-						"type": "number"
-						"label": "Strength"
-						"abrev": "str"
+						"type": "number",
+						"label": "Strength",
+						"abrev": "str",
 						"value": 1
 					},
 					"Capacity": {
-						"type": "number"
-						"label": "Capacity"
-						"abrev": "cap"
-						"value": 4
+						"type": "number",
+						"label": "Capacity",
+						"abrev": "cap",
+						"value": 4,
 						"Max": 8
-					},
-				},
+					}
+				}
 			},
 			"Skills": {
 				"Biology": {
 					"Bio-Fabrication": {
-						"type": "number"
-						"label": "Bio-Fabrication"
-						"abrev": "Bio-Fab"
-						"Pip": 0
-						"Total": 20
+						"type": "number",
+						"label": "Bio-Fabrication",
+						"abrev": "Bio-Fab",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"First Aid": {
-						"type": "number"
-						"label": "First Aid"
-						"abrev": "Aid"
-						"Pip": 0
-						"Total": 20
+						"type": "number",
+						"label": "First Aid",
+						"abrev": "Aid",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Medicine": {
-						"type": "number"
-						"label": "Medicine"
-						"abrev": "Med"
-						"Pip": 0
-						"Total": 20
+						"type": "number",
+						"label": "Medicine",
+						"abrev": "Med",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Xenology": {
-						"type": "number"
-						"label": "Xenology"
-						"abrev": "Xeno"
-						"Pip": 0
-						"Total": 20
-						"Alt": "n/a"
-					},
+						"type": "number",
+						"label": "Xenology",
+						"abrev": "Xeno",
+						"Pip": 0,
+						"Total": 20,
+						"Alt": 0
+					}
 				},
 				"Exploration": {
 					"Archaeology": {
-						"type": "number"
-						"label": "Archaeology"
-						"abrev": "Arch"
-						"Pip": 0
-						"Total": 20
+						"type": "number",
+						"label": "Archaeology",
+						"abrev": "Arch",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Navigation": {
-						"type": "number"
-						"label": "Navigation"
-						"abrev": "Nav"
-						"Pip": 0
-						"Total": 20
+						"type": "number",
+						"label": "Navigation",
+						"abrev": "Nav",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Orientation": {
-						"type": "number"
-						"label": "Orientation"
-						"abrev": "Ori"
-						"Pip": 0
-						"Total": 20
+						"type": "number",
+						"label": "Orientation",
+						"abrev": "Ori",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Perception": {
-						"type": "number"
-						"label": "Perception"
-						"abrev": "Per"
-						"Pip": 0
-						"Total": 20
+						"type": "number",
+						"label": "Perception",
+						"abrev": "Per",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Research": {
-						"type": "number"
-						"label": "Research"
-						"abrev": "Res"
-						"Pip": 0
-						"Total": 20
+						"type": "number",
+						"label": "Research",
+						"abrev": "Res",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Stealth": {
-						"type": "number"
-						"label": "Stealth"
-						"abrev": "Ste"
-						"Pip": 0
-						"Total": 20
+						"type": "number",
+						"label": "Stealth",
+						"abrev": "Ste",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Trickery": {
-						"type": "number"
-						"label": "Trickery"
-						"abrev": "Tri"
-						"Pip": 0
-						"Total": 20
+						"type": "number",
+						"label": "Trickery",
+						"abrev": "Tri",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
-					},
+					}
 				},
 				"Mechatronics": {
 					"Cracking": {
-						"type": "number"
-						"label": "Cracking"
-						"abrev": "Cra"
-						"Pip": 0
-						"Total": 20
+						"type": "number",
+						"label": "Cracking",
+						"abrev": "Cra",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Mechanical-Fabrication": {
-						"type": "number"
-						"label": "Mech-Fabrication"
-						"abrev": "Fab"
-						"Pip": 0
-						"Total": 20
+						"type": "number",
+						"label": "Mech-Fabrication",
+						"abrev": "Fab",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Leverage": {
-						"type": "number"
-						"label": "Leverage"
-						"abrev": "Lev"
-						"Pip": 0
-						"Total": 20
+						"type": "number",
+						"label": "Leverage",
+						"abrev": "Lev",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Programming": {
-						"type": "number"
-						"label": "Programming"
-						"abrev": "Prog"
-						"Pip": 0
-						"Total": 20
+						"type": "number",
+						"label": "Programming",
+						"abrev": "Prog",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Repair": {
-						"type": "number"
-						"label": "Repair"
-						"abrev": "Rep"
-						"Pip": 0
-						"Total": 20
+						"type": "number",
+						"label": "Repair",
+						"abrev": "Rep",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
-					},
+					}
 				},
 				"Melee": {
 					"Brawling": {
-						"type": "number"
-						"label": "Brawling"
-						"abrev": "Bra"
-						"Pip": 0
-						"Total": 20
+						"type": "number",
+						"label": "Brawling",
+						"abrev": "Bra",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Fencing": {
-						"type": "number"
-						"label": "Fencing"
-						"abrev": "Fen"
-						"Pip": 0
-						"Total": 20
+						"type": "number",
+						"label": "Fencing",
+						"abrev": "Fen",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"HeavyMelee": {
-						"type": "number"
-						"label": "Heavy Melee"
-						"abrev": "Heav"
-						"Pip": 0
-						"Total": 20
+						"type": "number",
+						"label": "Heavy Melee",
+						"abrev": "Heav",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": "n/a"
 					},
 					"Wrestling": {
-						"type": "number"
-						"label": "Wrestling"
-						"abrev": "Wres"
-						"Pip": 0
-						"Total": 20
+						"type": "number",
+						"label": "Wrestling",
+						"abrev": "Wres",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
-					},
+					}
 				},
 				"Physics": {
 					"AdvancedEnergyFabrication": {
-						"type": "number"
-						"label": "Advanced Energy Fabrication"
-						"abrev": "AEF"
-						"Pip": 0
-						"Total": 20
+						"type": "number",
+						"label": "Advanced Energy Fabrication",
+						"abrev": "AEF",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Energetics": {
-						"type": "number"
-						"label": "Advanced Energy Fabrication"
-						"abrev": "AEF"
-						"Pip": 0
-						"Total": 20
+						"type": "number",
+						"label": "Advanced Energy Fabrication",
+						"abrev": "AEF",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Psi-TechFabrication": {
-						"type": "number"
-						"label": "Psi-Tech Fabrication"
-						"abrev": "PTF"
-						"Pip": 0
-						"Total": 20
+						"type": "number",
+						"label": "Psi-Tech Fabrication",
+						"abrev": "PTF",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Scanning": {
-						"type": "number"
-						"label": "Scanning"
-						"abrev": "Scan"
-						"Pip": 0
-						"Total": 20
+						"type": "number",
+						"label": "Scanning",
+						"abrev": "Scan",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
-					},
+					}
 				},
 				"Psychic": {
 					"Control": {
-						"Type": "number"
-						"label": "Control"
-						"abrev": "Co"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "Control",
+						"abrev": "Co",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Voidmancy": {
-						"Type": "number"
-						"label": "N-Space Manipulation"
-						"abrev": "NSM"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "N-Space Manipulation",
+						"abrev": "NSM",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"telekinesis": {
-						"Type": "number"
-						"label": "Telekinesis"
-						"abrev": "Kin"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "Telekinesis",
+						"abrev": "Kin",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Telepathy": {
-						"Type": "number"
-						"label": "Telepathy"
-						"abrev": "Path"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "Telepathy",
+						"abrev": "Path",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
-					},
+					}
 				},
 				"Ranged": {
 					"Archery":{
-						"Type": "number"
-						"label": "Archery"
-						"abrev": "Arc"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "Archery",
+						"abrev": "Arc",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Heavyguns":{
-						"Type": "number"
-						"label": "Heavy Guns"
-						"abrev": "Gun"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "Heavy Guns",
+						"abrev": "Gun",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"LongArm":{
-						"Type": "number"
-						"label": "Long Arm"
-						"abrev": "Arm"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "Long Arm",
+						"abrev": "Arm",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Pistols":{
-						"Type": "number"
-						"label": "Pistols"
-						"abrev": "Pit"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "Pistols",
+						"abrev": "Pit",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
-					},
+					}
 				},
 				"Social":{
 					"Culture":{
-						"Type": "number"
-						"label": "Culture"
-						"abrev": "Cul"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "Culture",
+						"abrev": "Cul",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": "n/a"
 					},
 					"Deception":{
-						"Type": "number"
-						"label": "Deception"
-						"abrev": "Dec"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "Deception",
+						"abrev": "Dec",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Inquiry":{
-						"Type": "number"
-						"label": "Inquiry"
-						"abrev": "Inq"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "Inquiry",
+						"abrev": "Inq",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": "n/a"
 					},
 					"Magnetism":{
-						"Type": "number"
-						"label": "Magnetism"
-						"abrev": "Mag"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "Magnetism",
+						"abrev": "Mag",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Persuasion":{
-						"Type": "number"
-						"label": "Persuasion"
-						"abrev": "Per"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "Persuasion",
+						"abrev": "Per",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Performance":{
-						"Type": "number"
-						"label": "Performance"
-						"abrev": "Pef"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "Performance",
+						"abrev": "Pef",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
-					},
+					}
 				},
 				"Survival" :{
 					"AnimalHandling":{
-						"Type": "number"
-						"label": "Animal Handling"
-						"abrev": "Ani"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "Animal Handling",
+						"abrev": "Ani",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Camping":{
-						"Type": "number"
-						"label": "Camping"
-						"abrev": "Camp"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "Camping",
+						"abrev": "Camp",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Determination":{
-						"Type": "number"
-						"label": "Determination"
-						"abrev": "Det"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "Determination",
+						"abrev": "Det",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Endurance":{
-						"Type": "number"
-						"label": "Endurance"
-						"abrev": "End"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "Endurance",
+						"abrev": "End",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Intimidation":{
-						"Type": "number"
-						"label": "Intimidation"
-						"abrev": "Inti"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "Intimidation",
+						"abrev": "Inti",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
-					},
+					}
 				},
 				"Training":{
 					"Acrobatics":{
-						"Type": "number"
-						"label": "Acrobatics"
-						"abrev": "Acro"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "Acrobatics",
+						"abrev": "Acro",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Athletics":{
-						"Type": "number"
-						"label": "Athletics"
-						"abrev": "Ath"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "Athletics",
+						"abrev": "Ath",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Composure":{
-						"Type": "number"
-						"label": "Composure"
-						"abrev": "Comp"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "Composure",
+						"abrev": "Comp",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Dodge":{
-						"Type": "number"
-						"label": "Dodge"
-						"abrev": "Dod"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "Dodge",
+						"abrev": "Dod",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Piloting":{
-						"Type": "number"
-						"label": "Piloting"
-						"abrev": "Pil"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "Piloting",
+						"abrev": "Pil",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
-					},
+					}
 				},
 				"General":{
 					"Chemistry":{
-						"Type": "number"
-						"label": "Chemistry"
-						"abrev": "Chem"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "Chemistry",
+						"abrev": "Chem",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"Cooking":{
-						"Type": "number"
-						"label": "Cooking"
-						"abrev": "Cook"
-						"Pip": 0
-						"Total": 20
+						"Type": "number",
+						"label": "Cooking",
+						"abrev": "Cook",
+						"Pip": 0,
+						"Total": 20,
 						"Alt": 20
 					},
 					"History":{
-						"Type": "number"
-						"label": "History"
-						"abrev": "His"
-						"Pip": 0
-						"Total": 20
-						"Alt": "n/a"
+						"Type": "number",
+						"label": "History",
+						"abrev": "His",
+						"Pip": 0,
+						"Total": 20,
+						"Alt": 0
 					},
 					"Knowledge":{
-						"Type": "number"
-						"label": "Knowledge"
-						"abrev": "Know"
-						"Pip": 0
-						"Total": 20
-						"Alt": "n/a"
-					},
-				},
+						"Type": "number",
+						"label": "Knowledge",
+						"abrev": "Know",
+						"Pip": 0,
+						"Total": 20,
+						"Alt": 0
+					}
+				}
 			},
 			"CoreResources":{
 				"Resources":{
 					"CHealth": {
-						"type": "number"
-						"label": "Health"
-						"abrev": "H"
-						"value": 2
+						"type": "number",
+						"label": "Health",
+						"abrev": "H",
+						"value": 2,
 						"max": 2
 					},
 					"CStamina": {
-						"type": "number"
-						"label": "Stamina"
-						"abrev": "S"
-						"value": 2
+						"type": "number",
+						"label": "Stamina",
+						"abrev": "S",
+						"value": 2,
 						"max": 2
 					},
 					"CNerve": {
-						"type": "number"
-						"label": "Nerve"
-						"abrev": "N"
-						"value": 6
+						"type": "number",
+						"label": "Nerve",
+						"abrev": "N",
+						"value": 6,
 						"max": 6
 					},
 					"CIntegrity": {
-						"type": "number"
-						"label": "Integrity"
-						"abrev": "I"
-						"value": 2
+						"type": "number",
+						"label": "Integrity",
+						"abrev": "I",
+						"value": 2,
 						"max": 2
 					},
 					"CAmmo": {
-						"type": "number"
-						"label": "Ammo"
-						"abrev": "A"
-						"value": 2
+						"type": "number",
+						"label": "Ammo",
+						"abrev": "A",
+						"value": 2,
 						"max": 2
-					},
-				},
-			},
+					}
+				}
+			}
 		},
 		"Pc":{
 			"Templates": [
@@ -623,95 +623,90 @@
 			],
 			"Details":{
 				"Playername": {
-					"Type": "string"
-					"Label": "Player"
+					"Type": "string",
+					"Label": "Player",
 					"value": ""
 				},
 				"Charactername": {
-					"Type": "string"
-					"Label": "Name"
-					"value": ""
-				},
-				"Species": {
-					"Type": "string"
-					"Label": "Species"
+					"Type": "string",
+					"Label": "Name",
 					"value": ""
 				},
 				"SexGender": {
-					"Type": "string"
-					"Label": "Sex/Gender"
+					"Type": "string",
+					"Label": "Sex/Gender",
 					"value": ""
 				},
 				"Color": {
-					"Type": "string"
-					"Label": "Part Colors"
+					"Type": "string",
+					"Label": "Part Colors",
 					"value": ""
 				},
 				"Frame":{
-					"Type": "String"
-					"Label": "Frame"
+					"Type": "String",
+					"Label": "Frame",
 					"Value": ""
 				},
 				"Nationality":{
-					"Type": "String"
-					"Label": "Nationality"
+					"Type": "String",
+					"Label": "Nationality",
 					"Value": ""
 				},
 				"Origin":{
-					"Type": "String"
-					"Label": "Origin"
+					"Type": "String",
+					"Label": "Origin",
 					"Value": ""
 				},
 				"Training":{
-					"Type": "String"
-					"Label": "Training"
+					"Type": "String",
+					"Label": "Training",
 					"Value": ""
 				},
 				"Careers":{
-					"Type": "String"
-					"Label": "Careers"
+					"Type": "String",
+					"Label": "Careers",
 					"Value": ""
 				},
 				"Description":{
-					"Type": "String"
-					"Label": "Description"
+					"Type": "String",
+					"Label": "Description",
 					"Value": ""
 				},
 				"History":{
-					"Type": "String"
-					"Label": "History"
+					"Type": "String",
+					"Label": "History",
 					"Value": ""
-				},
+				}
 			},
 			"XPExpenditure":{
 				"Foci":{
-					"Type": "String"
-					"Label": "Foci"
+					"Type": "String",
+					"Label": "Foci",
 					"Value": ""
 				},
 				"XPTotal":{
-					"Type": "Number"
-					"Label": "XP Total"
+					"Type": "Number",
+					"Label": "XP Total",
 					"Value": 0
 				},
 				"XPSpent":{
-					"Type": "Number"
-					"Label": "XP Spent"
+					"Type": "Number",
+					"Label": "XP Spent",
 					"Value": 0
 				},
 				"XPHistory":{
-					"Type": "String"
-					"Label": "XP History"
+					"Type": "String",
+					"Label": "XP History",
 					"Value": ""
-				},
-			},
+				}
+			}
 		},
 		"NPC":{
 			"Templates":[
 			"Core",
 			"Skills",
 			"CoreResources"
-			],
+			]
 		},
 		"Remote":{
 			"Templates":[
@@ -721,241 +716,241 @@
 			],
 			"CraftStats":{
 				"RemCost":{
-					"Type": "Number"
-					"Label": "Crafting Points"
+					"Type": "Number",
+					"Label": "Crafting Points",
 					"Value": 0
 				},
 				"RemMass":{
-					"Type": "Number"
-					"Label": "Mass"
+					"Type": "Number",
+					"Label": "Mass",
 					"Value": 0
 				},
 				"RemType":{
-					"Type": "String"
-					"Label": "Materials Used"
+					"Type": "String",
+					"Label": "Materials Used",
 					"Value": ""
 				},
 				"RemLevel":{
-					"Type": "String"
-					"Label": "Minion Level"
+					"Type": "String",
+					"Label": "Minion Level",
 					"Value": ""
 				},
 				"Frame":{
-					"Type": "String"
-					"Label": "Frame"
+					"Type": "String",
+					"Label": "Frame",
 					"Value": ""
 				},
 				"RemFeatures":{
-					"Type": "String"
-					"Label": "Core Features"
+					"Type": "String",
+					"Label": "Core Features",
 					"Value": ""
 				},
 				"RemSecondary":{
-					"Type": "String"
-					"Label": "Additional Features"
+					"Type": "String",
+					"Label": "Additional Features",
 					"Value": ""
-				},
-			},
+				}
+			}
 		},
 		"Vehicle":{
 			"VehicleFeatures":{
 				"VCost":{
-					"Type": "Number"
-					"Label": "Cost"
+					"Type": "Number",
+					"Label": "Cost",
 					"Value": 0
 				},
 				"VMass":{
-					"Type": "Number"
-					"Label": "Mass"
+					"Type": "Number",
+					"Label": "Mass",
 					"Value": 0
 				},
 				"VMoveType":{
-					"Type": "string"
-					"Label": "Movement"
+					"Type": "string",
+					"Label": "Movement",
 					"Value": ""
 				},
 				"Cruising":{
-					"Type": "Number"
-					"Label": "Cruising Speed"
+					"Type": "Number",
+					"Label": "Cruising Speed",
 					"Value": 0
 				},
 				"Tactical":{
-					"Type": "Number"
-					"Label": "Tactical Speed"
+					"Type": "Number",
+					"Label": "Tactical Speed",
 					"Value": 0
 				},
 				"Passengers":{
-					"Type": "Number"
-					"Label": "Passengers"
+					"Type": "Number",
+					"Label": "Passengers",
 					"Value": 0
 				},
 				"VCapacity":{
-					"Type": "Number"
-					"Label": "Capacity"
+					"Type": "Number",
+					"Label": "Capacity",
 					"Value": 0
 				},
 				"VEngine":{
-					"Type": "string"
-					"Label": "Engine"
+					"Type": "string",
+					"Label": "Engine",
 					"Value": ""
 				},
 				"VIntegrity":{
-					"Type": "number"
-					"Label": "Integrity"
-					"Value": 0
+					"Type": "number",
+					"Label": "Integrity",
+					"Value": 0,
 					"Max": 0
 				},
 				"VArmor":{
-					"Type": "number"
-					"Label": "Armor"
+					"Type": "number",
+					"Label": "Armor",
 					"Value": 0
 				},
 				"VSpecial":{
-					"Type": "string"
-					"Label": "Special"
+					"Type": "string",
+					"Label": "Special",
 					"Value": ""
-				},
-			},
+				}
+			}
 		},
 		"Starship":{
 			"Starship":{
 				"ShipName":{
-					"Type": "string"
-					"Label": "Ship Name"
+					"Type": "string",
+					"Label": "Ship Name",
 					"Value": ""
 				},
 				"ShipOwners":{
-					"Type": "string"
-					"Label": "Ship Owners"
+					"Type": "string",
+					"Label": "Ship Owners",
 					"Value": ""
 				},
 				"ShipOwners":{
-					"Type": "string"
-					"Label": "Ship Owners"
+					"Type": "string",
+					"Label": "Ship Owners",
 					"Value": ""
 				},
 				"ShipCost":{
-					"Type": "number"
-					"Label": "Total Cost"
+					"Type": "number",
+					"Label": "Total Cost",
 					"Value": 0
 				},
 				"Class":{
-					"Type": "string"
-					"Label": "Class"
+					"Type": "string",
+					"Label": "Class",
 					"Value": ""
 				},
 				"shipsize":{
-					"Type": "string"
-					"Label": "Size"
+					"Type": "string",
+					"Label": "Size",
 					"Value": ""
 				},
 				"runningcost":{
-					"Type": "number"
-					"Label": "Running Costs"
+					"Type": "number",
+					"Label": "Running Costs",
 					"Value": 0
 				},
 				"Engine":{
-					"Type": "string"
-					"Label": "Engine"
+					"Type": "string",
+					"Label": "Engine",
 					"Value": ""
 				},
 				"Reactor":{
-					"Type": "string"
-					"Label": "Reactor"
+					"Type": "string",
+					"Label": "Reactor",
 					"Value": ""
 				},
 				"AI":{
-					"Type": "string"
-					"Label": "AI/Drone Suit"
+					"Type": "string",
+					"Label": "AI/Drone Suit",
 					"Value": ""
 				},
 				"Sensor":{
-					"Type": "string"
-					"Label": "Sensor E/M"
+					"Type": "string",
+					"Label": "Sensor E/M",
 					"Value": ""
 				},
 				"LifeSupport":{
-					"Type": "string"
-					"Label": "Life Support"
+					"Type": "string",
+					"Label": "Life Support",
 					"Value": ""
 				},
 				"Livingquarters":{
-					"Type": "string"
-					"Label": "Living Quarters"
+					"Type": "string",
+					"Label": "Living Quarters",
 					"Value": ""
-				},
+				}
 			},
 			"Starshipres":{
 				"Hull":{
-					"Type": "number"
-					"Label": "Hull"
-					"Value": 0
+					"Type": "number",
+					"Label": "Hull",
+					"Value": 0,
 					"max": 0
 				},
 				"Plating":{
-					"Type": "number"
-					"Label": "Plating"
-					"Value": 0
+					"Type": "number",
+					"Label": "Plating",
+					"Value": 0,
 					"max": 0
 				},
 				"Shielding":{
-					"Type": "number"
-					"Label": "Shielding"
-					"Value": 0
+					"Type": "number",
+					"Label": "Shielding",
+					"Value": 0,
 					"max": 0
 				},
 				"ShipPower":{
-					"Type": "number"
-					"Label": "Excess Power"
-					"Value": 0
+					"Type": "number",
+					"Label": "Excess Power",
+					"Value": 0,
 					"max": 0
 				},
 				"Poweruse":{
-					"Type": "number"
-					"Label": "Total Power"
-					"Value": 0
-					"Used": 0
+					"Type": "number",
+					"Label": "Total Power",
+					"Value": 0,
+					"Used": 0,
 					"Excess": 0
 				},
 				"Spaceuse":{
-					"Type": "number"
-					"Label": "Total Space"
-					"Value": 0
-					"Used": 0
+					"Type": "number",
+					"Label": "Total Space",
+					"Value": 0,
+					"Used": 0,
 					"Excess": 0
 				},
 				"shipspeed":{
-					"Type": "number"
-					"Label": "Tac Speed"
+					"Type": "number",
+					"Label": "Tac Speed",
 					"Value": 0
 				},
 				"Acceleration":{
-					"Type": "number"
-					"Label": "Accel"
+					"Type": "number",
+					"Label": "Accel",
 					"Value": 0
 				},
 				"Maneuver":{
-					"Type": "number"
-					"Label": "Maneuver"
+					"Type": "number",
+					"Label": "Maneuver",
 					"Value": 0
 				},
 				"Hardpoints":{
-					"Type": "number"
-					"Label": "Hardpoints"
-					"Value": 0
-					"Used": 0
+					"Type": "number",
+					"Label": "Hardpoints",
+					"Value": 0,
+					"Used": 0,
 					"Excess": 0
 				},
 				"Detection":{
-					"Type": "number"
-					"Label": "Detection Range"
+					"Type": "number",
+					"Label": "Detection Range",
 					"Value": 0
-				},
-			},
-		},
+				}
+			}
+		}
 	},
 	"Item":{
-		"types":[ "BD", "MWeapon", "RWeapon", "Suits", "Consumable", "Kit", "injuries", "talents", "traits", "augments", "Mutations", "Curses", "Powers", "modules", "Shipweapons", "Superheavy", "Crafted"],
+		"types":[ "BD", "MWeapon", "RWeapon", "Suits", "Consumable", "Kit", "injuries", "talents", "traits", "augments", "Mutations", "Curses", "Powers", "modules", "Shipweapons", "Superheavy", "Crafted", "Species"],
 		"Templates": {
 			"physicalitem" :{
 				"Price": 0,
@@ -965,14 +960,14 @@
 			},
 			"descriptionitem": {
 				"Description" :{
-					"type": "String"
+					"type": "String",
 					"value": ""
-				},
+				}
 			},
 			"Shipitem": {
-				"power": 0
+				"power": 0,
 				"space": 0
-			},
+			}
 		},
 		"BD": {
 			"templates":[ "Descriptionitem" ],
@@ -980,6 +975,7 @@
 		},
 		"MWeapon": {
 			"templates": [ "physicalitem", "Descriptionitem" ],
+			"Class": "",
 			"RoF": "",
 			"Energy": "",
 			"Damage": 0,
@@ -988,9 +984,10 @@
 		},
 		"Rweapon": {
 			"templates": [ "physicalitem", "Descriptionitem" ],
+			"Class": "",
 			"RoF": "",
 			"Magazine": 0,
-			"Ammo": ""
+			"Ammo": "",
 			"Energy": "",
 			"Damage": 0,
 			"Penetration": 0,
@@ -1003,9 +1000,9 @@
 			"Resistance": "",
 			"Environmental": "",
 			"SuitPower": {
-				"Type": "number"
-				"label": "Power"
-				"used": 0
+				"Type": "number",
+				"label": "Power",
+				"used": 0,
 				"max": 0
 			},
 			"PowerSource": "",
@@ -1015,11 +1012,11 @@
 			"templates": [ "physicalitem", "descriptionitem" ],
 			"Quantity": 0,
 			"ConsumableType": "",
-			"Effect": ""
+			"Effect": "",
 			"quality": "",
 			"uses": {
 				"autodestroy": false
-			},
+			}
 		},
 		"Kit":{
 			"templates": [ "physicalitem", "descriptionitem" ],
@@ -1044,7 +1041,7 @@
 			"templates": [ "physicalitem", "descriptionitem" ],
 			"Effect": "",
 			"Negative": "",
-			"Ranks": 
+			"Ranks": 1
 		},
 		"Injuries": {
 			"templates":[ "Descriptionitem" ],
@@ -1066,15 +1063,22 @@
 			"Traits": "",
 			"PowerEffect": ""
 		},
+		"Species": {
+			"templates":[ "Descriptionitem" ],
+			"Ability1": "",
+			"Ability2": "",
+			"Statmod": "",
+			"SubType": ""
+		},
 		"modules":{
-			"templates": [ "physicalitem", "descriptionitem", "Shipitem" ],
+			"templates": [ "physicalitem", "descriptionitem", "Shipitem" ]
 		},
 		"Shipweapon": {
 			"templates": [ "physicalitem", "Descriptionitem", "Shipitem" ],
 			"RoF": "",
 			"Magazine": 0,
-			"Ammo": ""
-			"Ammocost": ""
+			"Ammo": "",
+			"Ammocost": "",
 			"Energy": "",
 			"Damage": 0,
 			"Penetration": 0,
@@ -1087,9 +1091,9 @@
 			"Resistance": "",
 			"Environmental": "",
 			"SuitPower": {
-				"Type": "number"
-				"label": "Power"
-				"used": 0
+				"Type": "number",
+				"label": "Power",
+				"used": 0,
 				"max": 0
 			},
 			"PowerSource": "",
@@ -1105,6 +1109,6 @@
 			"Fabrication": "",
 			"Features": "",
 			"Applied": ""
-		},
-	},
-},
+		}
+	}
+}

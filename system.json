@@ -1,44 +1,36 @@
 {
 	"id": "starlightjournals",
 	"name": "Starlight Journals",
-	"title": "Starlight Journals: Adventures in the Far Flung Future",
-	"description": "A new and exciting space adventure sci-fi game for the FoundryVTT Environment",
+	"title": "Starlight Journals",
+	"description": "A new and exciting space adventure sci-fi game for the Foundry VTT Environment",
 	"version": "0.0.1",
 	"author": "Captain Zenscuel",
 	"authors" : [
 	{
 		"name": "Captain Zenscuel",
 		"email": "starlightjournals@gmail.com",
-		"discord": "Captain Zenscuel#9518",
-	}
-	]
-	"esmodules": [ "Starlightjournals.js" ],
-	"scripts":
-	"styles": ["starlightjournals.css" ],
-	"packs":
-	"languages": [
-	{
-		"lang": "en",
-		"name": "English",
-		"path": "lang/en.json"
+		"discord": "Captain Zenscuel#9518"
 	}
 	],
-	"Media":
+	"esmodules": [],
+	"scripts": ["Starlightjournals.js" ],
+	"styles": ["starlightjournals.css" ],
+	"packs": [],
+	"languages": [],
+	"Media": [],
 	"gridDistance": 2,
 	"gridUnits": "m",
 	"primarytokenAttribute": "attribute.health",
 	"secondaryTokenAttribute": "attribute.stamina",
 	"minimumcoreversion" : 10,
 	"compatibility" : {
-    "minimum" : "10.279",
-    "verified" : "10.279",
-    "maximum" : "10"    
+		"minimum" : "10",
+		"verified" : "10",
+		"maximum" : "10"    
   },
   "manifestPlusVersion": "0.0.1",
-  "templateVersion": 1,
   "socket": false,
-  "manifest" :  "",
+  "manifest" :  "https://github.com/CaptZens/Starlight-Journals.git",
   "download" :  "https://github.com/CaptZens/Starlight-Journals/blob/main/system.json",
   "url" : "https://github.com/CaptZens/Starlight-Journals"
-},
-	
+}
